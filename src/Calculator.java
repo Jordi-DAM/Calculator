@@ -6,6 +6,9 @@ class Calculator {
     public int subtract(int a, int b) {
         return a - b;
     }
+    public static int multiply(int a, int b){
+        return a*b;
+    }
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         System.out.println("Addition: " + calculator.add(10, 5));
