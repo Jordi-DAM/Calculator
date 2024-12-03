@@ -9,6 +9,11 @@ class Calculator {
     public static int multiply(int a, int b){
         return a*b;
     }
+    public static int divide(int a, int b){if (b==0){
+        System.out.println("Error, no es pot dividir entre 0 "); return 0;
+    }
+        return a/b;
+    }
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         System.out.println("Addition: " + calculator.add(10, 5));
