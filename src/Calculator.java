@@ -17,6 +17,10 @@ class Calculator {
         return a%b;
     }
 
+    public double sqrt (double a){
+        return Math.sqrt(a);
+    }
+
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         System.out.println("Addition: " + calculator.add(10, 5));
