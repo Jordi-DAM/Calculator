@@ -6,7 +6,8 @@ public class CalculatorTest {
             System.out.println("Testing subtract: " + (calculator.subtract(5, 3) == 2));
             System.out.println("Testing multiply: " + (calculator.multiply(2, 3) == 6));
             System.out.println("Testing divide: " + (calculator.divide(6, 3) == 2));
-            System.out.println("Testingn modulus" + (calculator.modulus(6,3)));
+            System.out.println("Testing modulus" + (calculator.modulus(6,3)));
+            System.out.println("Testing sqrt" + (calculator.sqrt(6)));
 
         }
 }
